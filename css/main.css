@@ -1,0 +1,71 @@
+@charset "UTF-8";
+/* CSS Document */
+/*------------------
+ 1- Global 
+ 2- Title Specific
+ -------------------*/
+ /*___________________
+
+    Global
+  ___________________*/
+
+.hidden{
+	display: none;
+}
+
+#container {
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	padding: 2em 16em;
+}
+
+body {
+	font-family: calibri, sans-serif;
+	font-size: 1.8em;
+	font-weight: lighter;
+}
+body p {
+	line-height: 45.4px;
+	margin-top: 12px;
+}
+
+.imgmargin {
+	margin: 1em 0em 1em 0em;
+}
+
+.margintop {
+	margin-top: 0.8em;
+}
+
+.capDrop {
+	font-size: 1.8em;
+}
+
+.centerc {
+	text-align: center;
+}
+
+/*___________________
+
+   Title Specific
+  ___________________*/
+.ch {
+	font-size: 1.5em;
+	text-align: center;
+	font-weight: normal;
+	border: solid;
+	background-color: black;
+	padding: 12px;
+	margin: 0.1em 7em;
+}
+
+.topic1h {
+	font-size: 1.6em;
+	letter-spacing: 5px;
+	font-weight: normal;
+	border: solid;
+	background-color: black;
+	padding: 10px;
+	margin: 0.1em 5em 0em 0em;
+}
